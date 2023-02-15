@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@primer/css": "^20.8.2",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "eslint": "8.33.0",
@@ -36,14 +37,19 @@
     "@storybook/addon-links": "^6.5.16",
     "@storybook/builder-webpack5": "^6.5.16",
     "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.3",
     "eslint-plugin-storybook": "^0.6.10",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
-    "node-mocks-http": "^1.12.1"
+    "node-mocks-http": "^1.12.1",
+    "sass": "^1.58.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
   }
 }
